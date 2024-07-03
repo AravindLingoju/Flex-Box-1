@@ -1,0 +1,473 @@
+
+img{
+   height: 100px;
+   width: 100px ;
+   object-fit: contain;
+   background-color:rgb(50, 134, 208);
+   border-radius: 5px;
+   margin: 5px;
+   border: 5px dashed white;
+}
+
+h1{
+   font-size: 2rem;
+   text-align: center;
+   color: red;
+}
+
+/* .............Row............. */
+
+.container1{
+   background-color:rgb(48, 174, 132);
+   height:100vh;
+   width: 100vw;
+   display: flex;
+   flex-direction: row;
+   justify-content:start;
+   align-items:start ;
+   flex-wrap: wrap;
+   margin: 20px;
+}
+
+
+.container2{
+   background-color:rgb(48, 174, 132);
+   height:100vh;
+   width: 100vw;
+   display: flex;
+   flex-direction: row;
+   justify-content:center;
+   align-items: top;
+   flex-wrap: wrap;
+   margin: 10px;
+}
+
+.container3{
+   background-color:rgb(48, 174, 132);
+   height:100vh;
+   width: 100vw;
+   display: flex;
+   flex-direction: row;
+   justify-content:end;
+   align-items: top;
+   flex-wrap: wrap;
+   margin: 10px;
+}
+
+.container4{
+   background-color:rgb(48, 174, 132);
+   height:100vh;
+   width: 100vw;
+   display: flex;
+   flex-direction: row;
+   justify-content:start;
+   align-items:center;
+   flex-wrap: wrap;
+   margin: 10px;
+}
+
+.container5{
+   background-color:rgb(48, 174, 132);
+   height:100vh;
+   width: 100vw;
+   display: flex;
+   flex-direction: row;
+   justify-content:center;
+   align-items:center;
+   flex-wrap: wrap;
+   margin: 10px;
+}
+
+.container6{
+   background-color:rgb(48, 174, 132);
+   height:100vh;
+   width: 100vw;
+   display: flex;
+   flex-direction: row;
+   justify-content:end;
+   align-items:center;
+   flex-wrap: wrap;
+   margin: 10px;
+}
+
+
+.container7{
+   background-color:rgb(48, 174, 132);
+   height:100vh;
+   width: 100vw;
+   display: flex;
+   flex-direction: row;
+   justify-content:start;
+   align-items:end;
+   flex-wrap: wrap;
+   margin: 10px;
+}
+
+.container8{
+   background-color:rgb(48, 174, 132);
+   height:100vh;
+   width: 100vw;
+   display: flex;
+   flex-direction: row;
+   justify-content:center;
+   align-items:end;
+   flex-wrap: wrap;
+   margin: 10px;
+}
+
+.container9{
+   background-color:rgb(48, 174, 132);
+   height:100vh;
+   width: 100vw;
+   display: flex;
+   flex-direction: row;
+   justify-content:end;
+   align-items:end;
+   flex-wrap: wrap;
+   margin: 10px;
+}
+
+/* .........Row-Reverse......... */
+
+.container10{
+   background-color:rgb(48, 174, 132);
+   height:100vh;
+   width: 100vw;
+   display:flex;
+   flex-direction: row-reverse;
+   justify-content:start;
+   align-items:start ;
+   flex-wrap: wrap;
+   margin: 20px;
+}
+
+
+.container11{
+   background-color:rgb(48, 174, 132);
+   height:100vh;
+   width: 100vw;
+   display: flex;
+   flex-direction:row-reverse;
+   justify-content:center;
+   align-items: top;
+   flex-wrap: wrap;
+   margin: 10px;
+}
+
+
+.container12{
+   background-color:rgb(48, 174, 132);
+   height:100vh;
+   width: 100vw;
+   display: flex;
+   flex-direction: row-reverse;
+   justify-content:end;
+   align-items: top;
+   flex-wrap: wrap;
+   margin: 10px;
+}
+
+.container13{
+   background-color:rgb(48, 174, 132);
+   height:100vh;
+   width: 100vw;
+   display: flex;
+   flex-direction: row-reverse;
+   justify-content:start;
+   align-items:center;
+   flex-wrap: wrap;
+   margin: 10px;
+}
+
+.container14{
+   background-color:rgb(48, 174, 132);
+   height:100vh;
+   width: 100vw;
+   display: flex;
+   flex-direction: row-reverse;
+   justify-content:center;
+   align-items: center;
+   flex-wrap: wrap;
+   margin: 10px;
+}
+
+.container15{
+   background-color:rgb(48, 174, 132);
+   height:100vh;
+   width: 100vw;
+   display: flex;
+   flex-direction: row-reverse;
+   justify-content:end;
+   align-items:center;
+   flex-wrap: wrap;
+   margin: 10px;
+}
+
+.container16{
+   background-color:rgb(48, 174, 132);
+   height:100vh;
+   width: 100vw;
+   display: flex;
+   flex-direction: row-reverse;
+   justify-content:start;
+   align-items:end;
+   flex-wrap: wrap;
+   margin: 10px;
+}
+
+.container17{
+   background-color:rgb(48, 174, 132);
+   height:100vh;
+   width: 100vw;
+   display: flex;
+   flex-direction: row-reverse;
+   justify-content:center;
+   align-items:end;
+   flex-wrap: wrap;
+   margin: 10px;
+}
+
+.container18{
+   background-color:rgb(48, 174, 132);
+   height:100vh;
+   width: 100vw;
+   display: flex;
+   flex-direction: row-reverse;
+   justify-content:end;
+   align-items: end;
+   flex-wrap: wrap;
+   margin: 10px;
+}
+
+
+/* ............Column............ */
+
+.container19{
+   background-color:rgb(48, 174, 132);
+   height:100vh;
+   width: 100vw;
+   display: flex;
+   flex-direction:column;
+   justify-content:start;
+   align-items:start ;
+   flex-wrap: wrap;
+   margin: 20px;
+}
+
+
+.container20{
+   background-color:rgb(48, 174, 132);
+   height:100vh;
+   width: 100vw;
+   display: flex;
+   flex-direction:column;
+   justify-content:start;
+   align-items:center;
+   flex-wrap: wrap;
+   margin: 10px;
+}
+
+
+.container21{
+   background-color:rgb(48, 174, 132);
+   height:100vh;
+   width: 100vw;
+   display: flex;
+   flex-direction:column;
+   justify-content:start;
+   align-items:end;
+   flex-wrap: wrap;
+   margin: 10px;
+}
+
+
+
+.container22{
+   background-color:rgb(48, 174, 132);
+   height:100vh;
+   width: 100vw;
+   display: flex;
+   flex-direction:column;
+   justify-content:center;
+   align-items:start;
+   flex-wrap: wrap;
+   margin: 10px;
+}
+
+
+.container23{
+   background-color:rgb(48, 174, 132);
+   height:100vh;
+   width: 100vw;
+   display: flex;
+   flex-direction:column;
+   justify-content:center;
+   align-items:center;
+   flex-wrap: wrap;
+   margin: 10px;
+}
+
+.container24{
+   background-color:rgb(48, 174, 132);
+   height:100vh;
+   width: 100vw;
+   display: flex;
+   flex-direction:column;
+   justify-content:center;
+   align-items:end;
+   flex-wrap: wrap;
+   margin: 10px;
+}
+
+
+.container25{
+   background-color:rgb(48, 174, 132);
+   height:100vh;
+   width: 100vw;
+   display: flex;
+   flex-direction:column;
+   justify-content:end;
+   align-items:start;
+   flex-wrap: wrap;
+   margin: 10px;
+}
+
+
+.container26{
+   background-color:rgb(48, 174, 132);
+   height:100vh;
+   width: 100vw;
+   display: flex;
+   flex-direction:column;
+   justify-content:end;
+   align-items:center;
+   flex-wrap: wrap;
+   margin: 10px;
+}
+
+
+
+.container27{
+   background-color:rgb(48, 174, 132);
+   height:100vh;
+   width: 100vw;
+   display: flex;
+   flex-direction:column;
+   justify-content:end;
+   align-items:end;
+   flex-wrap: wrap;
+   margin: 10px;
+}
+
+/* .........Column-Reverse.......... */
+
+.container28{
+   background-color:rgb(48, 174, 132);
+   height:100vh;
+   width: 100vw;
+   display: flex;
+   flex-direction: column-reverse;
+   justify-content:start;
+   align-items:start ;
+   flex-wrap: wrap;
+   margin: 20px;
+}
+
+.container29{
+   background-color:rgb(48, 174, 132);
+   height:100vh;
+   width: 100vw;
+   display: flex;
+   flex-direction: column-reverse;
+   justify-content:start;
+   align-items:center ;
+   flex-wrap: wrap;
+   margin: 20px;
+}
+
+.container30{
+   background-color:rgb(48, 174, 132);
+   height:100vh;
+   width: 100vw;
+   display: flex;
+   flex-direction: column-reverse;
+   justify-content:start;
+   align-items:end ;
+   flex-wrap: wrap;
+   margin: 20px;
+}
+
+
+.container31{
+   background-color:rgb(48, 174, 132);
+   height:100vh;
+   width: 100vw;
+   display: flex;
+   flex-direction: column-reverse;
+   justify-content:center;
+   align-items:start;
+   flex-wrap: wrap;
+   margin: 20px;
+}
+
+.container32{
+   background-color:rgb(48, 174, 132);
+   height:100vh;
+   width: 100vw;
+   display: flex;
+   flex-direction: column-reverse;
+   justify-content:center;
+   align-items:center;
+   flex-wrap: wrap;
+   margin: 20px;
+}
+
+
+.container33{
+   background-color:rgb(48, 174, 132);
+   height:100vh;
+   width: 100vw;
+   display: flex;
+   flex-direction: column-reverse;
+   justify-content:center;
+   align-items:end;
+   flex-wrap: wrap;
+   margin: 20px;
+}
+
+.container34{
+   background-color:rgb(48, 174, 132);
+   height:100vh;
+   width: 100vw;
+   display: flex;
+   flex-direction: column-reverse;
+   justify-content:end;
+   align-items:start;
+   flex-wrap: wrap;
+   margin: 20px;
+}
+
+
+.container35{
+   background-color:rgb(48, 174, 132);
+   height:100vh;
+   width: 100vw;
+   display: flex;
+   flex-direction: column-reverse;
+   justify-content:end;
+   align-items:center;
+   flex-wrap: wrap;
+   margin: 20px;
+}
+
+.container36{
+   background-color:rgb(48, 174, 132);
+   height:100vh;
+   width: 100vw;
+   display: flex;
+   flex-direction: column-reverse;
+   justify-content:end;
+   align-items:end;
+   flex-wrap: wrap;
+   margin: 20px;
+}
